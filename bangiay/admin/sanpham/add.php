@@ -47,7 +47,7 @@
 </div>
 <script>
 document.getElementById('form-them-sp').addEventListener('submit', async function(e) {
-    e.preventDefault(); // không cho submit truyền thống
+    e.preventDefault(); // không cho submit vvtruyền thống
 
     const form = e.target;
     const formData = new FormData(form);
