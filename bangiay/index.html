@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web cửa hàng thể thao</title>
+    <link rel="stylesheet" href="view/csscu.css" />
+  </head>
+  <body>
+   
+      <div class="row mb menu">
+        <ul><img src="https://bizweb.dktcdn.net/100/340/361/themes/913887/assets/logo.png?1718951130794" alt="MaxxSport Logo" />
+          <li></li>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Danh mục</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Góp ý</a></li>
+         
+        </ul>
+      </div>
+      <div class="row ">
+        <div class="boxtrai mr">
+            <!-- Left content goes here -->
+            <div class="banner">
+                <div class="slideshow-container">
+                    <!-- Slides -->
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="https://bizweb.dktcdn.net/100/340/361/themes/913887/assets/slider_2.jpg?1718951130794"
+                            style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="https://bizweb.dktcdn.net/100/340/361/themes/913887/assets/slider_1.jpg?1718951130794"
+                            style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="https://bizweb.dktcdn.net/100/340/361/themes/913887/assets/slider_3.jpg?1718951130794"
+                            style="width:100%">
+                        <div class="text"></div>
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        <div class="boxphai">
+          <div class="row mb">
+            <div class="boxtitle">TÀI KHOẢN</div>
+            <div class="boxcontent formtaikhoan">
+              <form action="#" method="post">
+                <div class="row mb10">
+                  Tên đăng nhâp <br />
+                  <input type="text" name="user" id="" />
+                </div>
+                <div class="row mb10">
+                  Mật khẩu <br />
+                  <input type="password" name="pass" id="" />
+                </div>
+                <div class="row mb10">
+                  <input type="checkbox" name="" id="" />Ghi nhớ tài khoản?
+                </div>
+                <div class="row mb10">
+                  <input type="submit" value="Đăng nhập" />
+                </div>
+              </form>
+              <li>
+                <a href="#">Quên mật khẩu</a>
+              </li>
+              <li>
+                <a href="#">Đăng ký thành viên</a>
+              </li>
+            </div>
+          </div>
+          <div class="row mb">
+            <div class="boxtitle">DANH MỤC</div>
+            <div class="boxcontent2 menudoc">
+              <ul>
+                <li>
+                  <a href="#">Giay</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">Quan</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">Ao</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">Mu</a>
+                </li>
+              </ul>
+            </div>
+            <div class="boxfooter searbox">
+              <form action="#" method="post">
+                <input type="text" name="" id="" />
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="boxtitle">TOP 10 YÊU THÍCH</div>
+            <div class="boxcontent">
+              <div class="row mb10">
+                <img src="" alt="" />
+                <a href="#">San pham1</a>
+              </div>
+              <div class="row mb10">
+                <img src="" alt="" />
+                <a href="#">San pham1</a>
+              </div>
+              <div class="row mb10">
+                <img src="" alt="" />
+                <a href="#">San pham1</a>
+              </div>
+              <div class="row mb10">
+                <img src="" alt="" />
+                <a href="#">San pham1</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb footer">Copyright@2024</div>
+    </div>
+  </body>
+</html>
+<!-- <?php
+if(isset($_POST["dangky"])){
+    $user = $_POST["user"];
+    $password = $_POST["password"];
+    $email = $_POST["email"];
+    $address = $_POST["address"];
+    $tel = $_POST["user"];
+    $role = $_POST["role"];
+    if(!filter_var($email, FILTER_VALIDATE_EMAIL)||strpos($email,"@") === false){
+        $thongbao = "Địa chỉ email không hợp lệ";
+    }
+}
+
+?> -->

@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1vw;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.header img {
+  display: block;
+  width: auto;
+  height: 50px;
+  margin: 0 auto;
+}
+.boxcenter {
+  width: 80%;
+  margin: 0 auto;
+}
+.row {
+  float: left;
+  width: 100%;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mr {
+  margin-right: 2%;
+}
+.demo {
+  background-color: antiquewhite;
+  min-height: 100px;
+}
+.header {
+  background-color: #000;
+  border: 1px #090 solid;
+  color: blue;
+  border-radius: 5px;
+}
+.header h1 {
+  margin: 10px 20px;
+  font-size: 2vw;
+  text-align: center;
+}
+.menu {
+  background-color: #000;
+  color: #ccc;
+  border-radius: 5px;
+}
+.boxtrai {
+  float: left;
+  width: 74%;
+}
+.boxphai {
+  float: left;
+  width: 24%;
+}
+.boxtitle {
+  color: #333;
+  padding: 10px;
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px #ccc solid;
+}
+.boxcontent {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+  padding: 20px;
+}
+.boxcontent h2 {
+  color: red;
+  font-size: 30px;
+}
+.boxcontent2 {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  min-height: 200px;
+  background-color: #eee;
+}
+.boxfooter {
+  color: #333;
+  padding: 10px;
+  background-color: #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px #ccc solid;
+}
+.banner {
+  min-height: 300px;
+  width: 100%;
+  text-align: center;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxsp {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.boxsp.mr {
+  margin-right: 20px;
+}
+
+.boxsp img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.boxsp h3 {
+  color: red;
+  font-size: 20px;
+}
+
+.boxsp a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btnaddtocart {
+  width: 100%;
+}
+
+.btnaddtocart form {
+  width: 100%;
+}
+
+.btnaddtocart input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #009900;
+  color: white;
+  cursor: pointer;
+}
+
+.btnaddtocart input[type="submit"]:hover {
+  background-color: #006600;
+}
+.menu ul {
+  padding: 0 15px;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 15px;
+}
+.menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: white;
+  font-size: 1.1vw;
+  transition: 0.5s;
+}
+/* box tai khoan */
+.formtaikhoan {
+  line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.frmcontent input[type="text"] {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"] {
+  border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+  background-color: #ccc;
+}
+.formtaikhoan li a {
+  color: teal;
+  text-decoration: none;
+}
+.formtaikhoan li a:hover {
+  color: rgb(37, 3, 255);
+  text-decoration: underline;
+}
+/* menu dọc */
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a {
+  color: #666;
+  text-decoration: none;
+}
+.menudoc ul li:hover {
+  background-color: #ccc;
+}
+.searchbox input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+/* top10 yeu thich */
+.top10 img {
+  width: 30px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+}
+.top10 a {
+  color: #666;
+  text-decoration: none;
+}
+.top10 a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+/* ADMIN */
+.headeradmin {
+  background-color: #eee;
+  border: 1px #ccc solid;
+  color: #666;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.headeradmin h1 {
+  font-size: 2vw;
+}
+.frmtitle {
+  background-color: #eee;
+  border: 1px #ccc solid;
+  color: #666;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.frmcontent {
+  padding: 20px 0;
+}
+/* danh sach loai hang */
+.frmdsloai table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.frmdsloai table th {
+  padding: 20px;
+  background-color: #ccc;
+}
+.frmdsloai table td {
+  padding: 10px 20px;
+  border: 1px #ccc solid;
+}
+.muahang {
+  opacity: 0.9;
+  background-color: #009900;
+}
+/* doan nay la sliceshow */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container {
+  display: flex;
+}
+.spct {
+  text-align: center;
+}
+.spct img {
+  width: 50%;
+}
+.thongbao {
+  color: #093;
+}
+.binhluan {
+  width: 100%;
+}
+.binhluan table td:nth-child(1) {
+  width: 50%;
+}
+.binhluan table td:nth-child(2) {
+  width: 20%;
+}
+.binhluan table td:nth-child(3) {
+  width: 30%;
+}
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart th,
+.cart td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart th {
+  background-color: #f2f2f2;
+}
+
+.cart-img {
+  width: auto;
+  height: 80px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: aquamarine;
+  border: 1px #090 solid;
+  font-size: 0.8vw;
+  color: blue;
+  border-radius: 5px;
+  padding: 20px;
+}
